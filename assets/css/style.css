@@ -1,3 +1,118 @@
-body {
-    background-color: greenyellow;
+/* google fonts api here */
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
 }
+
+body {
+    background-color: #000;
+    font-family: sans-serif;
+    color: #fff;
+}
+
+/* Headers and logo */
+
+h1, h2 {
+    font-family: cursive;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+#logo {
+    float: right;
+    font-size: 2rem;
+    margin-right: 25px;
+}
+
+hr {
+    border-top: 1px solid #fff;
+    width: 100%;
+}
+
+/* Navigation links */
+
+#nav-links {
+    font-size: 1.1rem;
+    letter-spacing: 3px;
+}
+
+#nav-links, #logo {
+    line-height: 75px;
+}
+
+div ul {
+    float: left;
+}
+
+#nav-links li {
+    display: inline;
+    list-style-type: none;
+    padding: 25px;
+    border: 1px solid #fff;
+}
+
+#nav-links a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#nav-links a:hover {
+    color: #7fff00;
+    border-bottom: 1px solid #7fff00;
+}
+
+.active {
+    border-bottom: 1px solid #7fff00;
+}
+
+/* Footer */
+
+footer {
+    height: 150px;
+}
+.social-media {
+    float: none;
+     text-align: center;
+ }
+
+.social-media li {
+    display: inline-block;
+}
+
+.social-media i {
+    font-size: 3rem;
+    margin: 0 10px;
+    padding: 20%;
+    color: #fff;
+}
+
+.breadcrumb {
+    float: none;
+    text-align: center;
+    font-size: 0.9rem;
+    letter-spacing: 3px;
+}
+
+.breadcrumb li {
+    display: inline-block;
+    list-style-type: none;
+}
+
+.breadcrumb a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.breadcrumb a:hover {
+    color: #7fff00;
+    border-bottom: 1px solid #7fff00;
+}
+
+/* Add a slash symbol (/) before/behind each list item - code below pasted from https://www.w3schools.com/howto/howto_css_breadcrumbs.asp */
+.breadcrumb li+li:before {
+    padding: 8px;
+    color: #fff;
+    content: "/\00a0";
+  }
