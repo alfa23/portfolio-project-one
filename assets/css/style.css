@@ -81,10 +81,11 @@ div ul {
 
 .left-side h2 {
     padding-top: 50px;
+    padding-bottom: 20px;
 }
 
 .left-side p {
-    padding: 30px;
+    padding: 10px 30px 10px 30px;
 }
 
 .right-side {
@@ -96,13 +97,14 @@ div ul {
 
 .right-side p {
     font-size: .9rem;
-    padding-top: 10px 50px 0 0;
+    padding-top: 10px;
+    padding-right: 30px;
 }
 
 .right-side video {
     padding-top: 30px;
     padding-right: 30px;
-    width: 75%;
+    width: 77%;
 }
 
 /* Footer */
