@@ -6,6 +6,10 @@
 }
 
 body {
+    background-image: url('../images/Background.gif');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
     background-color: #000;
     font-family: 'Open Sans', sans-serif;
     color: #fff;
@@ -67,42 +71,38 @@ div ul {
 
 /* Page section styling */
 
-.left-hand-third {
+.left-side {
     height: 100%;
     position: relative;
     float: left;
-    width: 33%;
+    width: 50%;
     text-align: center;
 }
 
-.left-hand-third h2 {
+.left-side h2 {
     padding-top: 50px;
 }
 
-.left-hand-third p {
+.left-side p {
     padding: 30px;
 }
 
-.center-right-thirds {
+.right-side {
     position: relative;
     float: right;
-    width: 66%;
+    width: 50%;
     text-align: center;
 }
 
-.center-right-thirds h2 {
-    padding-top: 50px;
-}
-
-.center-right-thirds p {
+.right-side p {
     font-size: .9rem;
-    padding: 10px;
+    padding-top: 10px 50px 0 0;
 }
 
-.center-right-thirds video {
+.right-side video {
     padding-top: 30px;
     padding-right: 30px;
-    width: 95%;
+    width: 75%;
 }
 
 /* Footer */
