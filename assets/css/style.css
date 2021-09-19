@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Open+Sans&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Open+Sans:wght@300&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -26,7 +25,7 @@ h1, h2 {
 }
 
 hr {
-    border-top: 1px solid #fff;
+    border-top: 1px solid #000;
     width: 100%;
 }
 
@@ -48,7 +47,7 @@ div ul {
 #nav-links li {
     display: inline;
     list-style-type: none;
-    padding: 25px 25px 23px;
+    padding: 25px 23px 23px;
     border: 1px solid #fff;
 }
 
@@ -66,11 +65,66 @@ div ul {
     border-bottom: 1px solid #7fff00;
 }
 
+/* Page section styling */
+
+.left-hand-third {
+    height: 100%;
+    position: relative;
+    float: left;
+    width: 33%;
+    text-align: center;
+}
+
+.left-hand-third h2 {
+    padding-top: 50px;
+}
+
+.left-hand-third p {
+    padding: 30px;
+}
+
+.center-right-thirds {
+    position: relative;
+    float: right;
+    width: 66%;
+    text-align: center;
+}
+
+.center-right-thirds h2 {
+    padding-top: 50px;
+}
+
+.center-right-thirds p {
+    font-size: .9rem;
+    padding: 10px;
+}
+
+.center-right-thirds video {
+    padding-top: 30px;
+    padding-right: 30px;
+    width: 95%;
+}
+
 /* Footer */
 
-footer {
-    height: 150px;
+/* Add page-container code to manage footer positioning - code below sourced from https://www.freecodecamp.org/news/how-to-keep-your-footer-where-it-belongs-59c6aa05c59c/ */
+
+#page-container {
+    position: relative;
+    min-height: 100vh;
 }
+
+#content-wrap {
+    padding-bottom: 100px;
+}
+
+#footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+}
+
 .social-media {
     float: none;
     text-align: center;
@@ -81,16 +135,17 @@ footer {
 }
 
 .social-media i {
-    font-size: 3rem;
+    font-size: 2rem;
     margin: 20px 10px 0;
     padding: 20%;
     color: #fff;
 }
 
 .breadcrumb {
+    font-family: 'Amatic SC', cursive;
     float: none;
     text-align: center;
-    font-size: 0.9rem;
+    font-size: 1.25rem;
 }
 
 .breadcrumb li {
