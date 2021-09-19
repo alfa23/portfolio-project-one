@@ -1,4 +1,4 @@
-/* google fonts api here */
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Open+Sans&display=swap');
 
 * {
     margin: 0;
@@ -8,21 +8,20 @@
 
 body {
     background-color: #000;
-    font-family: sans-serif;
+    font-family: 'Open Sans', sans-serif;
     color: #fff;
 }
 
 /* Headers and logo */
 
 h1, h2 {
-    font-family: cursive;
-    text-transform: uppercase;
-    letter-spacing: 3px;
+    font-size: 2rem;
+    font-family: 'Amatic SC', cursive;
 }
 
 #logo {
     float: right;
-    font-size: 2rem;
+    font-size: 3.5rem;
     margin-right: 25px;
 }
 
@@ -34,8 +33,8 @@ hr {
 /* Navigation links */
 
 #nav-links {
-    font-size: 1.1rem;
-    letter-spacing: 3px;
+    font-family: 'Amatic SC', cursive;
+    font-size: 1.5rem;
 }
 
 #nav-links, #logo {
@@ -49,7 +48,7 @@ div ul {
 #nav-links li {
     display: inline;
     list-style-type: none;
-    padding: 25px;
+    padding: 25px 25px 23px;
     border: 1px solid #fff;
 }
 
@@ -92,7 +91,6 @@ footer {
     float: none;
     text-align: center;
     font-size: 0.9rem;
-    letter-spacing: 3px;
 }
 
 .breadcrumb li {
@@ -116,3 +114,4 @@ footer {
     color: #fff;
     content: "/\00a0";
   }
+
