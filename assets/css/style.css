@@ -12,17 +12,18 @@ body {
     background-size: cover;
     background-color: #000;
     font-family: 'Open Sans', sans-serif;
-    color: #fff;
 }
 
 /* Headers and logo */
 
 h1, h2 {
+    color: #fff;
     font-size: 2rem;
     font-family: 'Amatic SC', cursive;
 }
 
 #logo {
+    color: #fff;
     float: right;
     font-size: 3.5rem;
     margin-right: 25px;
@@ -38,6 +39,7 @@ hr {
 #nav-links {
     font-family: 'Amatic SC', cursive;
     font-size: 1.5rem;
+    color: #fff;
 }
 
 #nav-links, #logo {
@@ -52,12 +54,12 @@ div ul {
     display: inline;
     list-style-type: none;
     padding: 25px 23px 23px;
-    border: 1px solid #fff;
+    /* border: 1px solid #fff; */
 }
 
 #nav-links a {
     text-decoration: none;
-    color: inherit;
+    color: #fff;
 }
 
 #nav-links a:hover {
@@ -66,6 +68,39 @@ div ul {
 }
 
 .active {
+    color: #7fff00;
+    border-bottom: 1px solid #7fff00;
+}
+
+/* Flexbox navigation links */
+
+.nav-flex-container {
+    width: 600px;
+    display: inline-flex;
+    align-items: stretch;
+    justify-content: flex-start;
+}
+
+.nav-flex-container > div {
+    width: 100px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 2rem;
+}
+
+.nav-links {
+    font-family: 'Amatic SC', cursive;
+    font-size: 1.5rem;
+    color: #fff;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.nav-links a:hover {
+    color: #7fff00;
     border-bottom: 1px solid #7fff00;
 }
 
@@ -86,6 +121,7 @@ div ul {
 
 .left-side p {
     padding: 10px 30px 10px 30px;
+    color: #fff;
 }
 
 .right-side {
@@ -99,12 +135,29 @@ div ul {
     font-size: .9rem;
     padding-top: 10px;
     padding-right: 30px;
+    color: #fff;
 }
 
 .right-side video {
     padding-top: 30px;
     padding-right: 30px;
     width: 77%;
+}
+
+/* Gallery page flexbox styling */
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.column {
+    flex: 33%;
+    max-width: 33%;
+}
+
+.column img {
+    vertical-align: middle;
 }
 
 /* Footer */
@@ -148,6 +201,7 @@ div ul {
     float: none;
     text-align: center;
     font-size: 1.25rem;
+    color: #fff;
 }
 
 .breadcrumb li {
@@ -157,7 +211,7 @@ div ul {
 
 .breadcrumb a {
     text-decoration: none;
-    color: inherit;
+    color: #fff;
 }
 
 .breadcrumb a:hover {
@@ -172,3 +226,59 @@ div ul {
     content: "/\00a0";
   }
 
+/* Media query for screen width 600px and below */
+
+@media screen and (max-width: 600px) {
+
+    #logo {
+        float: none;
+        display: block;
+        font-size: 3.5rem;
+        text-align: center;
+    }
+    
+    .left-side {
+        position: relative;
+        float: none;
+        width: 100%;
+        text-align: center;
+    }
+    
+    .right-side {
+        position: relative;
+        float: none;
+        width: 100%;
+        text-align: center;
+    }
+    
+    .right-side p {
+        font-size: .9rem;
+        padding-top: 10px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    
+    .right-side video {
+        padding-top: 30px;
+        padding-left: 30px;
+        padding-right: 30px;
+        width: 77%;
+    }
+
+    .column {
+        flex-direction: column;
+        max-width: 100%;
+    }
+    
+}
+
+/* Media query for screen width 992px and below */
+
+@media screen and (max-width: 992px) {
+
+    .column {
+        flex: 50%;
+        max-width: 50%;
+    }
+
+}
