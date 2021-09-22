@@ -6,7 +6,7 @@
 }
 
 body {
-    background-image: url('../images/Background.gif');
+    background-image: url('../images/background.gif');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -54,7 +54,6 @@ div ul {
     display: inline;
     list-style-type: none;
     padding: 25px 23px 23px;
-    /* border: 1px solid #fff; */
 }
 
 #nav-links a {
@@ -68,38 +67,6 @@ div ul {
 }
 
 .active {
-    color: #7fff00;
-    border-bottom: 1px solid #7fff00;
-}
-
-/* Flexbox navigation links */
-
-.nav-flex-container {
-    width: 600px;
-    display: inline-flex;
-    align-items: stretch;
-    justify-content: flex-start;
-}
-
-.nav-flex-container > div {
-    width: 100px;
-    text-align: center;
-    line-height: 75px;
-    font-size: 2rem;
-}
-
-.nav-links {
-    font-family: 'Amatic SC', cursive;
-    font-size: 1.5rem;
-    color: #fff;
-}
-
-.nav-links a {
-    text-decoration: none;
-    color: #fff;
-}
-
-.nav-links a:hover {
     color: #7fff00;
     border-bottom: 1px solid #7fff00;
 }
@@ -146,7 +113,28 @@ div ul {
 
 /* Portfolio page flexbox styling */
 
+.main-flexbox-container {
+    display: flex;
+    flex-wrap: wrap;
+}
 
+.left-flex {
+    flex: 50%;
+}
+
+.left-flex img {
+    max-width: 100%;
+    width: auto;
+}
+
+.right-flex {
+    flex: 50%;
+}
+
+.right-flex img {
+    max-width: 100%;
+    width: auto;
+}
 
 /* Gallery page flexbox styling */
 
@@ -227,8 +215,19 @@ div ul {
 .breadcrumb li+li:before {
     padding: 8px;
     color: #fff;
-    content: "/\00a0";
+    content: "|";
   }
+
+/* Media query for screen width 992px and below */
+
+@media screen and (max-width: 992px) {
+
+    .column {
+        flex: 50%;
+        max-width: 50%;
+    }
+
+}
 
 /* Media query for screen width 600px and below */
 
@@ -238,6 +237,16 @@ div ul {
         float: none;
         display: block;
         font-size: 3.5rem;
+        text-align: center;
+        margin-right: 0;
+    }
+
+    div ul {
+        float: none;
+    }
+    
+    nav {
+        display: block;
         text-align: center;
     }
     
@@ -271,18 +280,18 @@ div ul {
 
     .column {
         flex-direction: column;
+        flex: 100%;
+        max-width: 100%;
+    }
+
+    .left-flex {
+        flex: 100%;
+        max-width: 100%;
+    }
+
+    .right-flex {
+        flex: 100%;
         max-width: 100%;
     }
     
-}
-
-/* Media query for screen width 992px and below */
-
-@media screen and (max-width: 992px) {
-
-    .column {
-        flex: 50%;
-        max-width: 50%;
-    }
-
 }

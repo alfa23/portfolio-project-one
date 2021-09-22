@@ -12,27 +12,34 @@
 </head>
 
 <body>
+    <!-- page-container for consistent footer behaviour -->
     <div id="page-container">
         <div id="content-wrap">
+            
+    <!-- header section incorporating nav and logo elements -->            
             <header>
                 <nav>
-                    <div class="nav-flex-container">
-                            <div class="nav-links">
-                                <a href="index.html">Home</a>
-                            </div>
-                            <div class="nav-links">
+                    <div>
+                        <ul id="nav-links">
+                            <li>
+                                <a href="index.html" class="active">Home</a>
+                            </li>
+                            <li>
                                 <a href="portfolio.html">Portfolio</a>
-                            </div>
-                            <div class="nav-links">
-                                <a href="contact.html" class="active">Contact</a>
-                            </div>
+                            </li>
+                            <li>
+                                <a href="contact.html">Contact</a>
+                            </li>
+                        </ul>
                     </div>
                 </nav>
                 <div>
-                    <h1 id="logo">RJW Illustration</h1>
+                    <h1 id="logo">RJW&nbsp;Illustration</h1>
                 </div>
                 <hr>
             </header>
+
+    <!-- main page area - contact section and form elements -->
             <section>
                 <div class="left-side">
                     <h2>Contact RJW Illustration</h2>
@@ -41,15 +48,18 @@
                     <p>• Hand-drawn artworks and limited-edition prints</p>
                     <p>• Original T-shirt and canvas art</p>
                 </div>
+            <!-- contact form element - ensure proper validation -->
                 <div class="right-side">
-                    <form action="">
+                    <form method="POST" action="https://formdump.codeinstitute.net/" class="contact-form" target="_blank">
 
                     </form>
                 </div>
             </section>
             <hr>
         </div>
-        <footer id="footer">
+
+    <!-- footer section: social media external links [instagram/behance] and nav elements -->
+    <footer id="footer">
             <div>
                 <ul class="social-media">
                     <li>
@@ -64,6 +74,7 @@
                     </li>
                 </ul>
             </div>
+            <!-- use styled breadcrumb for convenient lower-page site navigation -->
             <div>
                 <ul class="breadcrumb">
                     <li>

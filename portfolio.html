@@ -8,21 +8,24 @@
     <meta name="description" content="RJW Illustration portfolio website for UK-based artist in Chippenham, Wiltshire">
     <meta name="keywords" content="illustration, art, artist, drawing, portrait, inktober, procreate">
     <link rel="stylesheet" href="assets/css/style.css">
-    <title>RJW Illustration | Home</title>
+    <title>RJW Illustration | Portfolio</title>
 </head>
 
 <body>
+    <!-- page-container for consistent footer behaviour -->
     <div id="page-container">
         <div id="content-wrap">
+    
+    <!-- header section incorporating nav and logo elements -->
             <header>
                 <nav>
                     <div>
                         <ul id="nav-links">
                             <li>
-                                <a href="index.html" class="active">Home</a>
+                                <a href="index.html">Home</a>
                             </li>
                             <li>
-                                <a href="portfolio.html">Portfolio</a>
+                                <a href="portfolio.html" class="active">Portfolio</a>
                             </li>
                             <li>
                                 <a href="contact.html">Contact</a>
@@ -31,26 +34,30 @@
                     </div>
                 </nav>
                 <div>
-                    <h1 id="logo">RJW Illustration</h1>
+                    <h1 id="logo">RJW&nbsp;Illustration</h1>
                 </div>
                 <hr>
             </header>
+            
+    <!-- main page area - portfolio landing page with gallery links -->
             <section>
                 <div class="main-flexbox-container">
-                    <div class="left-flex">
+                    <div class="left-flex" style="align-self: center;">
                         <a href="gallery-inktober_20.html">
-                            <img src="assets/images/inktober_20/Dizzy.png" alt="Crazy collie chasing his tail">
+                            <img src="assets/images/inktober_20/dizzy.png" alt="Crazy collie chasing his tail">
                         </a>
                     </div>
                     <div class="right-flex">
                         <a href="#">
-                            <img src="assets/images/illustrative/Sun.png" alt="Traditional yellow and orange sun illustration with face">
+                            <img src="assets/images/illustrative/sun.png" alt="Traditional yellow and orange sun illustration with face">
                         </a>
                     </div>
                 </div>
             </section>
             <hr>
         </div>
+
+         <!-- footer section: social media external links [instagram/behance] and nav elements -->
         <footer id="footer">
             <div>
                 <ul class="social-media">
@@ -66,6 +73,7 @@
                     </li>
                 </ul>
             </div>
+            <!-- use styled breadcrumb for convenient lower-page site navigation -->
             <div>
                 <ul class="breadcrumb">
                     <li>
