@@ -87,7 +87,7 @@ div ul {
 }
 
 .left-side p {
-    padding: 10px 30px 10px 30px;
+    padding: 0 15% 15% 15%;
     color: #fff;
 }
 
@@ -109,6 +109,15 @@ div ul {
     padding-top: 30px;
     padding-right: 30px;
     width: 77%;
+}
+
+.text-panel {
+    text-align: center;
+    margin: 2rem auto;
+    max-width: 80%;
+    width: auto;
+    background-color: rgba(0, 0, 0, 0.7);
+    border: 1px solid #7fff00;
 }
 
 /* Portfolio page flexbox styling */
