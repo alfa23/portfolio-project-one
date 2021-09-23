@@ -14,6 +14,10 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
+body a {
+    text-decoration: none;
+}
+
 /* Headers and logo */
 
 h1, h2 {
@@ -32,6 +36,7 @@ h1, h2 {
 hr {
     border-top: 1px solid #000;
     width: 100%;
+    visibility: hidden;
 }
 
 /* Navigation links */
@@ -102,7 +107,7 @@ div ul {
     font-size: .9rem;
     padding-top: 10px;
     padding-right: 30px;
-    color: #fff;
+    color: #7fff00;
 }
 
 .right-side video {
@@ -155,9 +160,10 @@ input {
 .gallery-title {
     position: relative;
     text-align: center;
-    top: 50%;
+    bottom: 50%;
     font-size: 3rem;
     opacity: 0;
+    color: #7fff00;
     background-color: rgba(39, 19, 19, 0.6);
 }
 
@@ -213,6 +219,10 @@ input {
 .social-media {
     float: none;
     text-align: center;
+ }
+
+ .social-media:hover {
+     color: #7fff00;
  }
 
 .social-media li {
@@ -288,32 +298,48 @@ input {
         text-align: center;
     }
     
-    .left-side {
+    .left-side h2, .right-side h2 {
+        padding-top: 30px;
+        padding-bottom: 10px;
+    }
+
+    .left-side, .right-side {
         position: relative;
         float: none;
         width: 100%;
         text-align: center;
     }
     
-    .right-side {
+    /* .right-side {
         position: relative;
         float: none;
         width: 100%;
         text-align: center;
+    } */
+    
+    .left-side p, .right-side p {
+        padding: 0 5% 15% 5%;
+        color: #fff;
     }
     
-    .right-side p {
+    .text-panel {
+        max-width: 90%;
+        width: auto;
+    }
+
+    .right-side span {
         font-size: .9rem;
         padding-top: 10px;
-        padding-left: 30px;
-        padding-right: 30px;
+        padding-left: 10px;
+        padding-right: 10px;
+        color: #7fff00;
     }
     
     .right-side video {
         padding-top: 30px;
-        padding-left: 30px;
-        padding-right: 30px;
-        width: 77%;
+        padding-left: 10px;
+        padding-right: 10px;
+        width: 83%;
     }
 
     .column {
@@ -327,9 +353,4 @@ input {
         max-width: 100%;
     }
 
-    /* .gallery-two-flex {
-        flex: 100%;
-        max-width: 100%;
-    } */
-    
 }
