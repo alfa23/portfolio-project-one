@@ -81,12 +81,12 @@ div ul {
     text-align: center;
 }
 
-.left-side h2 {
+.left-side h2, .right-side h2 {
     padding-top: 50px;
     padding-bottom: 20px;
 }
 
-.left-side p {
+.left-side p, .right-side p {
     padding: 0 15% 15% 15%;
     color: #fff;
 }
@@ -98,7 +98,7 @@ div ul {
     text-align: center;
 }
 
-.right-side p {
+.right-side span {
     font-size: .9rem;
     padding-top: 10px;
     padding-right: 30px;
@@ -117,7 +117,25 @@ div ul {
     max-width: 80%;
     width: auto;
     background-color: rgba(0, 0, 0, 0.7);
-    border: 1px solid #7fff00;
+}
+
+form {
+    width: 100%;
+    padding-bottom: 15%;
+    color: #fff;
+}
+
+#form-submit {
+    background-color: #7fff00;
+    color: #000;
+    font-family: 'Amatic SC', cursive;
+    padding: 0.3rem 1rem;
+    font-size: 1.5rem;
+    border: 2px solid #fff;
+}
+
+input {
+    margin: 0.5rem;
 }
 
 /* Portfolio page flexbox styling */
