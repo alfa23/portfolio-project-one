@@ -126,12 +126,19 @@ form {
 }
 
 #form-submit {
-    background-color: #7fff00;
-    color: #000;
+    background-color: #000;
+    color: #7fff00;
     font-family: 'Amatic SC', cursive;
     padding: 0.3rem 1rem;
     font-size: 1.5rem;
     border: 2px solid #fff;
+}
+
+
+
+#form-submit:hover {
+    background-color: #7fff00;
+    color: #000;
 }
 
 input {
