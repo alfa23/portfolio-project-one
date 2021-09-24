@@ -180,7 +180,7 @@ input {
     width: auto;
 }
 
-/* Gallery page flexbox styling */
+/* Gallery page main flexbox styling */
 
 .row {
     display: flex;
@@ -194,6 +194,35 @@ input {
 
 .column img {
     vertical-align: middle;
+}
+
+/* Gallery page footer link bar styling */
+
+#gallery-footer-link-left, #gallery-footer-link-right {
+    height: fit-content;
+    position: absolute;
+    bottom: 100px;
+    font-family: 'Amatic SC', cursive;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    padding: 0.25rem 0.5rem;
+    margin: 1rem 2rem;
+    background-color: #000;
+}
+
+#gallery-footer-link-left {
+    left: 0;
+    display: inline;
+}
+
+#gallery-footer-link-right {
+    display: inline-block;
+    right: 0;
+}
+
+#gallery-footer-link-left:hover, #gallery-footer-link-right:hover {
+    color: #7fff00;
+    border-color: #7fff00;
 }
 
 /* Footer */
@@ -221,10 +250,6 @@ input {
     text-align: center;
  }
 
- .social-media:hover {
-     color: #7fff00;
- }
-
 .social-media li {
     display: inline-block;
 }
@@ -234,6 +259,10 @@ input {
     margin: 20px 10px 0;
     padding: 20%;
     color: #fff;
+}
+
+.social-media:hover {
+    color: #7fff00;
 }
 
 .breadcrumb {
