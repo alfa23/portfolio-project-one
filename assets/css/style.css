@@ -124,10 +124,16 @@ div ul {
     background-color: rgba(0, 0, 0, 0.7);
 }
 
+/* Form and form button styling */
+
 form {
     width: 100%;
     padding-bottom: 15%;
     color: #fff;
+}
+
+input {
+    margin: 0.5rem;
 }
 
 #form-submit {
@@ -139,15 +145,9 @@ form {
     border: 2px solid #fff;
 }
 
-
-
 #form-submit:hover {
     background-color: #7fff00;
     color: #000;
-}
-
-input {
-    margin: 0.5rem;
 }
 
 /* Portfolio page flexbox styling */
@@ -155,6 +155,15 @@ input {
 .main-flexbox-container {
     display: flex;
     flex-wrap: wrap;
+}
+
+.gallery-flex {
+    flex: 50%;
+}
+
+.gallery-flex img {
+    max-width: 100%;
+    width: auto;
 }
 
 .gallery-title {
@@ -169,15 +178,6 @@ input {
 
 .gallery-flex:hover .gallery-title {
     opacity: 1;
-}
-
-.gallery-flex {
-    flex: 50%;
-}
-
-.gallery-flex img {
-    max-width: 100%;
-    width: auto;
 }
 
 /* Gallery page main flexbox styling */
@@ -245,6 +245,8 @@ input {
     height: 100px;
 }
 
+/* Footer elements styling */
+
 .social-media {
     float: none;
     text-align: center;
@@ -288,7 +290,8 @@ input {
     border-bottom: 1px solid #7fff00;
 }
 
-/* Add a slash symbol (/) before/behind each list item - code below pasted from https://www.w3schools.com/howto/howto_css_breadcrumbs.asp */
+/* Add a symbol (|) before/behind each list item - code below pasted from https://www.w3schools.com/howto/howto_css_breadcrumbs.asp */
+
 .breadcrumb li+li:before {
     padding: 8px;
     color: #fff;
@@ -299,6 +302,7 @@ input {
 
 @media screen and (max-width: 992px) {
     
+    /* Home & Contact page response */
     .left-side p, .right-side p {
         padding: 0 10% 15% 10%;
         color: #fff;
@@ -308,7 +312,8 @@ input {
         max-width: 85%;
         width: auto;
     }
-    
+
+    /* Gallery pages response */
     .column {
         flex: 50%;
         max-width: 50%;
@@ -320,6 +325,7 @@ input {
 
 @media screen and (max-width: 600px) {
 
+    /* Header and nav response */
     #logo {
         float: none;
         display: block;
@@ -337,6 +343,7 @@ input {
         text-align: center;
     }
 
+    /* Home & Contact page response */
     .left-side, .right-side {
         position: relative;
         float: none;
@@ -374,15 +381,18 @@ input {
         width: 83%;
     }
 
+    /* Portfolio page response */
+    .gallery-flex {
+        flex: 100%;
+        max-width: 100%;
+    }
+
+        /* Gallery pages response */
     .column {
         flex-direction: column;
         flex: 100%;
         max-width: 100%;
     }
 
-    .gallery-flex {
-        flex: 100%;
-        max-width: 100%;
-    }
-
+    
 }
