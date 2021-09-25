@@ -207,7 +207,7 @@ input {
     border-radius: 5px;
     padding: 0.25rem 0.5rem;
     margin: 1rem 2rem;
-    background-color: #000;
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
 #gallery-footer-link-left {
@@ -298,7 +298,17 @@ input {
 /* Media query for screen width 992px and below */
 
 @media screen and (max-width: 992px) {
-
+    
+    .left-side p, .right-side p {
+        padding: 0 10% 15% 10%;
+        color: #fff;
+    }
+    
+    .text-panel {
+        max-width: 85%;
+        width: auto;
+    }
+    
     .column {
         flex: 50%;
         max-width: 50%;
@@ -326,11 +336,6 @@ input {
         display: block;
         text-align: center;
     }
-    
-    .left-side h2, .right-side h2 {
-        padding-top: 30px;
-        padding-bottom: 10px;
-    }
 
     .left-side, .right-side {
         position: relative;
@@ -339,12 +344,10 @@ input {
         text-align: center;
     }
     
-    /* .right-side {
-        position: relative;
-        float: none;
-        width: 100%;
-        text-align: center;
-    } */
+    .left-side h2, .right-side h2 {
+        padding-top: 30px;
+        padding-bottom: 10px;
+    }
     
     .left-side p, .right-side p {
         padding: 0 5% 15% 5%;
