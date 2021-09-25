@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Open+Sans:wght@300&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -20,7 +21,8 @@ body a {
 
 /* Headers and logo */
 
-h1, h2 {
+h1,
+h2 {
     color: #fff;
     font-size: 2rem;
     font-family: 'Amatic SC', cursive;
@@ -47,7 +49,8 @@ hr {
     color: #fff;
 }
 
-#nav-links, #logo {
+#nav-links,
+#logo {
     line-height: 75px;
 }
 
@@ -86,12 +89,14 @@ div ul {
     text-align: center;
 }
 
-.left-side h2, .right-side h2 {
+.left-side h2,
+.right-side h2 {
     padding-top: 50px;
     padding-bottom: 20px;
 }
 
-.left-side p, .right-side p {
+.left-side p,
+.right-side p {
     padding: 0 15% 15% 15%;
     color: #fff;
 }
@@ -103,11 +108,10 @@ div ul {
     text-align: center;
 }
 
-.right-side span {
+span {
     font-size: .9rem;
     padding-top: 10px;
     padding-right: 30px;
-    color: #7fff00;
 }
 
 .right-side video {
@@ -121,7 +125,7 @@ div ul {
     margin: 2rem auto;
     max-width: 80%;
     width: auto;
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: rgba(0, 0, 0, 0.8);
 }
 
 /* Form and form button styling */
@@ -173,7 +177,7 @@ input {
     font-size: 3rem;
     opacity: 0;
     color: #7fff00;
-    background-color: rgba(39, 19, 19, 0.6);
+    background-color: rgba(0, 0, 0, 0.6);
 }
 
 .gallery-flex:hover .gallery-title {
@@ -198,7 +202,8 @@ input {
 
 /* Gallery page footer link bar styling */
 
-#gallery-footer-link-left, #gallery-footer-link-right {
+#gallery-footer-link-left,
+#gallery-footer-link-right {
     height: fit-content;
     position: absolute;
     bottom: 100px;
@@ -209,6 +214,7 @@ input {
     margin: 1rem 2rem;
     background-color: rgba(0, 0, 0, 0.5);
 }
+
 /* gallery-footer feature was built to allow scrolling in both directions when 3+ galleries are active; left is currently hidden as initially there are only 2 galleries active */
 #gallery-footer-link-left {
     left: 0;
@@ -221,7 +227,8 @@ input {
     right: 0;
 }
 
-#gallery-footer-link-left:hover, #gallery-footer-link-right:hover {
+#gallery-footer-link-left:hover,
+#gallery-footer-link-right:hover {
     border-color: #7fff00;
 }
 
@@ -250,7 +257,7 @@ input {
 .social-media {
     float: none;
     text-align: center;
- }
+}
 
 .social-media li {
     display: inline-block;
@@ -296,18 +303,19 @@ input {
     padding: 8px;
     color: #fff;
     content: "|";
-  }
+}
 
 /* Media query for screen width 992px and below */
 
 @media screen and (max-width: 992px) {
-    
+
     /* Home & Contact page response */
-    .left-side p, .right-side p {
+    .left-side p,
+    .right-side p {
         padding: 0 10% 15% 10%;
         color: #fff;
     }
-    
+
     .text-panel {
         max-width: 85%;
         width: auto;
@@ -337,45 +345,44 @@ input {
     div ul {
         float: none;
     }
-    
+
     nav {
         display: block;
         text-align: center;
     }
 
     /* Home & Contact page response */
-    .left-side, .right-side {
+    .left-side,
+    .right-side {
         position: relative;
         float: none;
         width: 100%;
         text-align: center;
     }
-    
-    .left-side h2, .right-side h2 {
+
+    .left-side h2,
+    .right-side h2 {
         padding-top: 30px;
         padding-bottom: 10px;
     }
-    
-    .left-side p, .right-side p {
+
+    .left-side p,
+    .right-side p {
         padding: 0 5% 15% 5%;
         color: #fff;
     }
-    
+
     .text-panel {
         max-width: 90%;
         width: auto;
     }
 
-    .right-side span {
-        font-size: .9rem;
-        padding-top: 10px;
-        padding-left: 10px;
-        padding-right: 10px;
-        color: #7fff00;
+    span {
+        padding: 10px 10px 0 10px;
     }
-    
+
     .right-side video {
-        padding-top: 30px;
+        padding-top: 20px;
         padding-left: 10px;
         padding-right: 10px;
         width: 83%;
@@ -387,12 +394,12 @@ input {
         max-width: 100%;
     }
 
-        /* Gallery pages response */
+    /* Gallery pages response */
     .column {
         flex-direction: column;
         flex: 100%;
         max-width: 100%;
     }
 
-    
+
 }
