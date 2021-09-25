@@ -209,10 +209,11 @@ input {
     margin: 1rem 2rem;
     background-color: rgba(0, 0, 0, 0.5);
 }
-
+/* gallery-footer feature was built to allow scrolling in both directions when 3+ galleries are active; left is currently hidden as initially there are only 2 galleries active */
 #gallery-footer-link-left {
     left: 0;
     display: inline;
+    visibility: hidden;
 }
 
 #gallery-footer-link-right {
@@ -221,7 +222,6 @@ input {
 }
 
 #gallery-footer-link-left:hover, #gallery-footer-link-right:hover {
-    color: #7fff00;
     border-color: #7fff00;
 }
 
