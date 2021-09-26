@@ -108,16 +108,16 @@ div ul {
     text-align: center;
 }
 
-span {
-    font-size: .9rem;
-    padding-top: 10px;
-    padding-right: 30px;
-}
-
 .right-side video {
     padding-top: 30px;
     padding-right: 30px;
     width: 77%;
+}
+
+span {
+    font-size: .9rem;
+    padding-top: 10px;
+    padding-right: 30px;
 }
 
 .text-panel {
@@ -184,7 +184,17 @@ input {
     opacity: 1;
 }
 
-/* Gallery page main flexbox styling */
+/* Gallery page heading and main flexbox styling */
+
+#gallery-heading {
+    font-size: 2.5rem;
+    text-align: center;
+    vertical-align: middle;
+    max-width: 100%;
+    width: auto;
+    padding: 0.25rem;
+    background-color: rgba(127, 255, 0, 0.4);
+}
 
 .row {
     display: flex;
