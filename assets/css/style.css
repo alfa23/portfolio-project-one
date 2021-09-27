@@ -7,7 +7,7 @@
 }
 
 body {
-    background-image: url('../images/background.gif');
+    background-image: url('../images/website_background.gif');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -91,7 +91,7 @@ div ul {
 
 .left-side h2,
 .right-side h2 {
-    padding-top: 50px;
+    padding-top: 30px;
     padding-bottom: 20px;
 }
 
@@ -149,6 +149,7 @@ input {
     padding: 0.3rem 1rem;
     font-size: 1.5rem;
     border: 2px solid #fff;
+    border-radius: 0.5rem;
 }
 
 #form-submit:hover {
@@ -317,9 +318,9 @@ input {
     content: "|";
 }
 
-/* Media query for screen width 992px and below */
+/* Media query for screen width 1024px and below */
 
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 1024px) {
 
     /* Home & Contact page response */
     .left-side p,
@@ -341,9 +342,9 @@ input {
 
 }
 
-/* Media query for screen width 600px and below */
+/* Media query for screen width 768px and below */
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 768px) {
 
     /* Header and nav response */
     #logo {
@@ -374,7 +375,7 @@ input {
 
     .left-side h2,
     .right-side h2 {
-        padding-top: 30px;
+        padding-top: 20px;
         padding-bottom: 10px;
     }
 
@@ -401,6 +402,10 @@ input {
     }
 
     /* Portfolio page response */
+    .gallery-title {
+        opacity: 1;
+    }
+    
     .gallery-flex {
         flex: 100%;
         max-width: 100%;
