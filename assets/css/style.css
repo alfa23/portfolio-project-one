@@ -218,7 +218,7 @@ input {
 #gallery-footer-link-right {
     height: fit-content;
     position: absolute;
-    bottom: 100px;
+    bottom: 125px;
     font-family: 'Amatic SC', cursive;
     border: 2px solid #fff;
     border-radius: 5px;
@@ -254,14 +254,14 @@ input {
 }
 
 #content-wrap {
-    padding-bottom: 100px;
+    padding-bottom: 125px;
 }
 
 #footer {
     position: absolute;
     bottom: 0;
     width: 100%;
-    height: 100px;
+    height: 125px;
 }
 
 /* Footer elements styling */
@@ -276,8 +276,8 @@ input {
 }
 
 .social-media i {
-    font-size: 2rem;
-    margin: 20px 10px 0;
+    font-size: 3rem;
+    margin: 20px 15px 0px;
     padding: 20%;
     color: #fff;
 }
@@ -300,6 +300,7 @@ input {
 }
 
 .breadcrumb a {
+    padding: 2px;
     text-decoration: none;
     color: #fff;
 }
