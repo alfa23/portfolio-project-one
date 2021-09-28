@@ -1,14 +1,50 @@
 # RJW Illustration Online Portfolio
 
-In this section, you will include one or two paragraphs providing an overview of your project. Essentially, this part is your sales pitch. At this stage, you should have a name for your project so use it! Don’t introduce the project as a Portfolio project for the diploma. In this section, describe what the project hopes to accomplish, who it is intended to target and how it will be useful to the target audience. 
+Rian Whiteside is an active, industrious Illustrator and digital artist based in the rural South West of the UK. Despite having a *distinctive **style***, *extensive **portfolio*** and *growing **client list***, he ***still** doesn't have a **website!***
 
-For example; Love Running is a site that hopes to help keep people motivated to meet up for runs on a regular basis in Dublin, Ireland. The site will be targeted toward runners who are looking for a way to socialise and keep themselves fit. Love Running will be useful for runners to see exactly when and where they should be to join the running club. 
+### ***Until now...***
 
-![Responsice Mockup](https://github.com/lucyrush/readme-template/blob/master/media/love_running_mockup.png)
+**RJW Illustration** is a site that hopes showcase Rian's unique art style to a wider audience online. The site will be targeted toward users who enjoy discovering new artists to follow and artworks to appreciate. 
 
-## Features 
+The **RJW Illustration** site will be useful for users and other artists (or potential employers!) wishing to see more of Rian's work, and also offer the opportunity to send him a message, enquire about commissions or discuss collaborations. 
+
+![AmIResponsive Mockup](https://github.com/lucyrush/readme-template/blob/master/media/love_running_mockup.png)
+
+---- 
+
+# UCD: STRATEGY
+
+![Initial Project Doodlings](#)
+
+## External User Goals: 
 
 In this section, you should go over the different parts of your project, and describe each in a sentence or so. You will need to explain what value each of the features provides for the user, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
+
+## Site Owner Goals:
+
+In this section, you should go over the different parts of your project, and describe each in a sentence or so. You will need to explain what value each of the features provides for the user, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
+
+## Potential Features
+
+In this section, you should go over the different parts of your project, and describe each in a sentence or so. You will need to explain what value each of the features provides for the user, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
+
+---- 
+
+# UCD: SCOPE
+
+![UCD Strategic Trade-Offs: Importance vs Feasibility](#)
+
+----
+
+# UCD: STRUCTURE
+
+---- 
+
+# UCD: SKELETON
+
+---- 
+
+# UCD: SURFACE
 
 ### Existing Features
 
