@@ -38,9 +38,15 @@ In this section, you should go over the different parts of your project, and des
 
 # UCD: STRUCTURE
 
+![Balsamiq Site Map](#)
+
 ---- 
 
 # UCD: SKELETON
+
+![Balsamiq Mobile Wireframes](#)
+
+![Balsamiq Desktop Wireframes](#)
 
 ---- 
 
@@ -48,46 +54,68 @@ In this section, you should go over the different parts of your project, and des
 
 ### Existing Features
 
-- **Header Navigation Bar & Logo**
+- **Site-wide Navigation & Logo Header**
 
-  - Featured on all three pages, the full responsive navigation bar includes links to the Logo, Home page, Gallery and Sign Up page and is identical in each page to allow for easy navigation.
-  - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button. 
+  - Visually balancing the top-left-aligned nav elements, the RJW Illustration logo is rendered top-right using Amatic SC, a cursive web font in a simple, hand-drawn style.
+  - Featured on all website pages, the fully responsive header includes links to the Home page, Portfolio landing page and Contact page and is identical in each page to allow for easy navigation.
+  
+![Site-wide Nav & Logo Header](#)
 
-![Header Nav Bar](https://github.com/lucyrush/readme-template/blob/master/media/love_running_nav.png)
+  - This allows the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button. 
+
+![Header Nav](#)
+
+  - On mouse hover, nav links are highlighted to provide clear user-feedback and the current page is indicated with an underline in the site's chosen accent colour, Chartreuse.
+
+![Header Nav Focus Feedback](#)
+  
+![Header Nav Active](#)
 
 - **Home Page About Section & Time-lapse Video**
 
   - The landing includes a photograph with text overlay to allow the user to see exactly which location this site would be applicable to. 
   - This section introduces the user to Love Running with an eye catching animation to grab their attention
 
-![Home Page](https://github.com/lucyrush/readme-template/blob/master/media/love_running_landing.png)
+![Home Page Copy Panel](#)
+
+![Home Page Time-lapse User-invoked Video Panel](#)
 
 - **Footer** 
 
-  - The footer section includes links to the relevant social media sites for Love Running. The links will open to a new tab to allow easy navigation for the user. 
-  - The footer is valuable to the user as it encourages them to keep connected via social media
+  - The footer section includes links to Instagram and Behance external sites and will open to a new tab, allowing easy navigation for the user. This is valuable to site users as it encourages them to keep connected via social media.
+  - Additional site-wide breadcrumb-style nav links included in the footer allow easy user navigation to Home, Portfolio and Contact pages at the bottom of long gallery pages and all pages on smaller, responsive-styled screens.
 
-![Footer](https://github.com/lucyrush/readme-template/blob/master/media/love_running_footer.png)
+![Site-wide footer](#)
+
+![Site-wide footer links](#)
 
 - **Portfolio Gallery Selection Page**
 
-  - The gallery will provide the user with supporting images to see what the meet ups look like. 
+  - The Portfolio page serves as a gallery will provide the user with supporting images to see what the meet ups look like. 
   - This section is valuable to the user as they will be able to easily identify the types of events the organisation puts together. 
 
-![Gallery](https://github.com/lucyrush/readme-template/blob/master/media/love_running_gallery.png)
+![Portfolio](#)
+
+![Portfolio gallery title on image hover](#)
 
 - **Gallery Pages: Inktober 2020 & Illustrative**
 
   - The gallery will provide the user with supporting images to see what the meet ups look like. 
   - This section is valuable to the user as they will be able to easily identify the types of events the organisation puts together. 
 
-![Gallery](https://github.com/lucyrush/readme-template/blob/master/media/love_running_gallery.png)
+![Gallery title header](#)
+
+![Gallery responses: full/1024/768](#)
+
+![Gallery footer links](#)
 
 - **Contact Page**
 
   - This page will allow the user to get signed up to Love Running to start their running journey with the community. The user will be able specify if they would like to take part in road, trail or both types of running. The user will be asked to submit their full name and email address. 
 
-![Say Hullo!](https://github.com/lucyrush/readme-template/blob/master/media/love_running_signup.png)
+![Contact copy panel](#)
+
+![Say Hullo!: Contact form panel](#)
 
 For some/all of your features, you may choose to reference the specific project files that implement them.
 
