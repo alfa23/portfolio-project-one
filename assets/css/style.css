@@ -7,10 +7,6 @@
 }
 
 body {
-    background-image: url('../images/website_background.gif');
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
     background-color: #000;
     font-family: 'Open Sans', sans-serif;
 }
@@ -19,7 +15,18 @@ body a {
     text-decoration: none;
 }
 
-/* Headers and logo */
+/* site-wide page background video - modified code from https://www.w3schools.com/howto/howto_css_fullscreen_video.asp */
+
+#bkgrd-video {
+    z-index: -3;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+/* headers and logo */
 
 h1,
 h2 {
@@ -41,7 +48,7 @@ hr {
     visibility: hidden;
 }
 
-/* Navigation links */
+/* navigation links */
 
 #nav-links {
     font-family: 'Amatic SC', cursive;
@@ -79,7 +86,7 @@ div ul {
     border-bottom: 1px solid #7fff00;
 }
 
-/* Home and Contact page main section styling */
+/* home and contact page - main section styling */
 
 .left-side {
     height: 100%;
@@ -128,7 +135,7 @@ span {
     background-color: rgba(0, 0, 0, 0.8);
 }
 
-/* Form and form button styling */
+/* contact page - form and form button styling */
 
 form {
     width: 100%;
@@ -157,7 +164,7 @@ input {
     color: #000;
 }
 
-/* Portfolio page flexbox styling */
+/* portfolio page - flexbox styling for gallery page links */
 
 .main-flexbox-container {
     display: flex;
@@ -187,7 +194,7 @@ input {
     opacity: 1;
 }
 
-/* Gallery page heading and main flexbox styling */
+/* gallery page - heading and main flexbox styling */
 
 #gallery-heading {
     font-size: 2.5rem;
@@ -213,7 +220,7 @@ input {
     vertical-align: middle;
 }
 
-/* Gallery page footer link bar styling */
+/* gallery page - styling for gallery-footer-link feature */
 
 #gallery-footer-link-left,
 #gallery-footer-link-right {
@@ -228,7 +235,7 @@ input {
     background-color: rgba(0, 0, 0, 0.5);
 }
 
-/* gallery-footer feature was built to allow scrolling in both directions when 3+ galleries are active; left is currently hidden as initially there are only 2 galleries active */
+/* gallery-footer-link feature was built to allow scrolling in both directions when 3+ galleries are active; left is currently hidden as initially there are only 2 galleries active */
 #gallery-footer-link-left {
     left: 0;
     display: inline;
@@ -245,9 +252,9 @@ input {
     border-color: #7fff00;
 }
 
-/* Footer */
+/* footer */
 
-/* Add page-container code to manage footer positioning - code below sourced from https://www.freecodecamp.org/news/how-to-keep-your-footer-where-it-belongs-59c6aa05c59c/ */
+/* add page-container code to manage footer positioning - code below sourced from https://www.freecodecamp.org/news/how-to-keep-your-footer-where-it-belongs-59c6aa05c59c/ */
 
 #page-container {
     position: relative;
@@ -265,7 +272,7 @@ input {
     height: 100px;
 }
 
-/* Footer elements styling */
+/* footer elements styling */
 
 .social-media {
     float: none;
@@ -310,7 +317,7 @@ input {
     border-bottom: 1px solid #7fff00;
 }
 
-/* Add a symbol (|) before/behind each list item - code below pasted from https://www.w3schools.com/howto/howto_css_breadcrumbs.asp */
+/* add a symbol (|) before/behind each list item - code below pasted from https://www.w3schools.com/howto/howto_css_breadcrumbs.asp */
 
 .breadcrumb li+li:before {
     padding: 8px;
@@ -318,11 +325,11 @@ input {
     content: "|";
 }
 
-/* Media query for screen width 1024px and below */
+/* media query for screen width 1024px and below */
 
 @media screen and (max-width: 1024px) {
 
-    /* Home & Contact page response */
+    /* home & contact page response */
     .left-side p,
     .right-side p {
         padding: 0 10% 15% 10%;
@@ -334,7 +341,7 @@ input {
         width: auto;
     }
 
-    /* Gallery pages response */
+    /* gallery page response */
     .column {
         flex: 50%;
         max-width: 50%;
@@ -342,11 +349,11 @@ input {
 
 }
 
-/* Media query for screen width 768px and below */
+/* media query for screen width 768px and below */
 
 @media screen and (max-width: 768px) {
 
-    /* Header and nav response */
+    /* header and nav response */
     #logo {
         float: none;
         display: block;
@@ -364,7 +371,7 @@ input {
         text-align: center;
     }
 
-    /* Home & Contact page response */
+    /* home & contact page response */
     .left-side,
     .right-side {
         position: relative;
@@ -401,7 +408,7 @@ input {
         width: 83%;
     }
 
-    /* Portfolio page response */
+    /* portfolio page response */
     .gallery-title {
         opacity: 1;
     }
@@ -411,7 +418,7 @@ input {
         max-width: 100%;
     }
 
-    /* Gallery pages response */
+    /* gallery page response */
     .column {
         flex-direction: column;
         flex: 100%;
