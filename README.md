@@ -91,8 +91,8 @@ In this section, you should go over the different parts of your project, and des
 
 - **Portfolio Gallery Selection Page**
 
-  - The Portfolio page serves as a gallery will provide the user with supporting images to see what the meet ups look like. 
-  - This section is valuable to the user as they will be able to easily identify the types of events the organisation puts together. 
+  - The Portfolio page serves as a landing page that allows users to choose which gallery they wish to view. 
+  - This section is valuable to the user as they will be able to easily identify the types of artwork and styles of illustration Rian creates. 
 
 ![Portfolio](#)
 
