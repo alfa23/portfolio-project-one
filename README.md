@@ -4,7 +4,7 @@ Rian Whiteside is an active, industrious Illustrator and digital artist based in
 
 ### ***Until now...***
 
-**RJW Illustration** is a site that hopes showcase Rian's unique art style to a wider audience online. The site will be targeted toward users who enjoy discovering new artists to follow and artworks to appreciate. 
+**RJW Illustration** is a site that hopes showcase Rian's unique art style to a wider audience online, in a simple-yet-stylish experience. The site will be targeted toward users who enjoy discovering new artists to follow and artworks to appreciate. 
 
 The **RJW Illustration** site will be useful for users and other artists (or potential employers!) wishing to see more of Rian's work, and also offer the opportunity to send him a message, enquire about commissions or discuss collaborations. 
 
@@ -78,21 +78,22 @@ In this section, you should go over the different parts of your project, and des
 
 ![Home Page Copy Panel](#)
 
-![Home Page Time-lapse User-invoked Video Panel](#)
+![Home Page Time-lapse User-Invoked Video Panel](#)
 
 - **Footer** 
 
   - The footer section includes links to Instagram and Behance external sites and will open to a new tab, allowing easy navigation for the user. This is valuable to site users as it encourages them to keep connected via social media.
   - Additional site-wide breadcrumb-style nav links included in the footer allow easy user navigation to Home, Portfolio and Contact pages at the bottom of long gallery pages and all pages on smaller, responsive-styled screens.
 
-![Site-wide footer](#)
+![Site-wide Footer](#)
 
-![Site-wide footer links](#)
+![Site-wide Footer Links](#)
 
 - **Portfolio Gallery Selection Page**
 
-  - The Portfolio page serves as a landing page that allows users to choose which gallery they wish to view. 
-  - This section is valuable to the user as they will be able to easily identify the types of artwork and styles of illustration Rian creates. 
+  - The Portfolio page serves as a landing page providing users with links to themed galleries of work. 
+  - This section is also valuable to the user as it enables them to easily choose between the different thematic styles of illustration Rian creates. 
+  - Two gallery choices initially available. Flexbox CSS method utilised allows easy addition & styling for subsequent gallery pages as required.
 
 ![Portfolio](#)
 
