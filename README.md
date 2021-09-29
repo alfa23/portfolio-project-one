@@ -8,13 +8,21 @@ Rian Whiteside is an active, industrious Illustrator and digital artist based in
 
 The **RJW Illustration** site will be useful for users and other artists (or potential employers!) wishing to see more of Rian's work, and also offer the opportunity to send him a message, enquire about commissions or discuss collaborations. 
 
-![AmIResponsive Mockup](https://github.com/lucyrush/readme-template/blob/master/media/love_running_mockup.png)
+![AmIResponsive Home](readme_media/test_amiresponsive/amiresponsive-01_home.png)
+
+![AmIResponsive Portfolio](readme_media/test_amiresponsive/amiresponsive-02_portfolio.png)
+
+![AmIResponsive Gallery Ink](readme_media/test_amiresponsive/amiresponsive-03_inktober20.png)
+
+![AmIResponsive Gallery Ill](readme_media/test_amiresponsive/amiresponsive-04_illustrative.png)
+
+![AmIResponsive Contact](readme_media/test_amiresponsive/amiresponsive-05_contact.png)
 
 ---- 
 
 # UCD: STRATEGY
 
-![Initial Project Doodlings](#)
+![Initial Project Doodlings](readme_media/rjwi_planning_docs/pp01_initial_thinx.jpg)
 
 ## External User Goals: 
 
