@@ -1,12 +1,16 @@
 # RJW Illustration Online Portfolio
 
+----
+
+## **Introduction**
+
 Rian Whiteside is an active, industrious Illustrator and digital artist based in the rural South West of the UK. Despite having a *distinctive **style***, *extensive **portfolio*** and *growing **client list***, he ***still** doesn't have a **website!***
 
-### ***Until now...***
+#### ***Until now...***
 
 **RJW Illustration** is a site that hopes showcase Rian's unique art style to a wider audience online, in a simple-yet-stylish experience. The site will be targeted toward users who enjoy discovering new artists to follow and artworks to appreciate. 
 
-The **RJW Illustration** site will be useful for users and other artists (or potential employers!) wishing to see more of Rian's work, and also offer the opportunity to send him a message, enquire about commissions or discuss collaborations. 
+The **RJW Illustration** site will be useful for users and other artists wishing to see more of Rian's work, and also offer the opportunity to send him a message, enquire about commissions or discuss collaborations. 
 
 ![AmIResponsive Home](readme_media/test_amiresponsive/amiresponsive-01_home.png)
 
@@ -20,25 +24,60 @@ The **RJW Illustration** site will be useful for users and other artists (or pot
 
 ---- 
 
-# UCD: STRATEGY
+# UCD Phase 1: STRATEGY - Project Goals
 
 ![Initial Project Doodlings](readme_media/rjwi_planning_docs/pp01_initial_thinx.jpg)
 
 ## External User Goals: 
 
-In this section, you should go over the different parts of your project, and describe each in a sentence or so. You will need to explain what value each of the features provides for the user, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
+- Viewing original illustrative artwork by RJW
+- Basic information & social media links for RJW
+- Ability to contact RJW about commissions or collaborations
+
+  Additional ***user expectations*** for consideration include:
+  - Intuitive/conventional navigation elements
+  - Familiar and/or easily understandable site structure
+  - Responsive: access site easily on any device
 
 ## Site Owner Goals:
 
-In this section, you should go over the different parts of your project, and describe each in a sentence or so. You will need to explain what value each of the features provides for the user, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
+- Establish a simple-yet-stylish web presence
+- Ability to showcase their art to a wider audience online
+- Opportunity for potential clients or collaborators to make contact
+  
+  Additional ***stakeholder concerns*** for consideration: 
+  - Dark theme with some animated page element(s) preferred; page background/icons/logo
+  - Multiple themed galleries rather than all-artworks-in-one
+  - Include time-lapse video of digital art process
+  - Potential requirement of e-commerce integration at a later date
 
-## Potential Features
 
-In this section, you should go over the different parts of your project, and describe each in a sentence or so. You will need to explain what value each of the features provides for the user, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
+## Potential Features:
+
+Considering the goals, expectations and concerns detailed above, potential features for the RJW Illustration site should include:
+- A stylish and effective design with easy, intuitive navigation - and some animation!
+- Multiple thematic galleries of RJW artworks, e.g. Illustrative, Inktober 2020, Portraits, Animals
+- Prominent contact methods; social media links, contact form
+- 'About' details for RJW including:
+  - Short artist bio
+  - Video of digital art time-lapse
+- Any back-end/preparatory work or features relevant to future e-commerce implimentation
 
 ---- 
 
 # UCD: SCOPE
+
+Utilising Phase One considerations a simple Strategy Table can be generated:
+
+
+| OPPORTUNITY/PROBLEM/FEATURE | IMPORTANCE | VIABILITY/FEASIBILITY | ID    | 
+|-----------------------------|:----------:|:---------------------:|:-------
+| Stylish website             | 5          | 5                     | A     |
+| Multiple artwork galleries  | 5          | 4                     | B     |
+| Prominent contact options   | 5          | 5                     | C     |
+| 'About' artist info         | 5          | 5                     | D     |
+| E-commerce elements         | 3          | 1                     | E     |
+| TOTAL         | 23         | 20                    |       |
 
 ![UCD Strategic Trade-Offs: Importance vs Feasibility](#)
 
