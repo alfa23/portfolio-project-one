@@ -232,38 +232,47 @@ During the course of this project I have utilised the following technologies:
 ## Home Page Features
 
 - The Home page consists of two responsive elements:
-  - ***Left [responsive top]*** comprises of an 'About' heading above text panel, containing brief information about RJW, encouraging getting in touch and thanking for visiting. Valuable to user relations as it conveys pertinent information in a friendly, approachable manner
-  - ***Right [responsive bottom]*** comprises
+  - ***Left [responsive: top]*** comprises of an 'About' heading above text on dark-tinted panel, containing brief information about RJW, encouraging getting in touch and thanking for visiting. Valuable to user relations as it conveys pertinent information in a friendly, approachable manner
+  - ***Right [responsive: bottom]*** a paused and muted time-lapse video of RJW's digital art process for the 'Dizzy' illustration. Valuable to users as it provides an insight into RJW's methods and artistic process. 
+    - In the interest of good UXD, THE VIDEO DOES NOT AUTOPLAY until user-invoked, looping thereafter until stopped 
 
-![Home Page Copy Panel](#)
-
-![Home Page Time-lapse User-Invoked Video Panel](#)
+![Home Page Copy Panel](/readme_media/rjwi_screens_site_features/rjwi_home_copy_panel.png) ![Home Page Time-lapse User-Invoked Video Panel](readme_media/rjwi_screens_site_features/rjwi_home_video_panel.png)
 
 
 ## Portfolio Page Features
 
   - The Portfolio page serves as a landing page providing users with links to themed galleries of work. 
-  - This section is also valuable to the user as it enables them to easily choose between the different thematic styles of illustration Rian creates. 
-  - Two gallery choices initially available. Flexbox CSS method utilised allows easy addition & styling for subsequent gallery pages as required.
+    - This is valuable to the user as it enables them to easily choose between the different thematic styles of illustration RJW creates 
+  - Two gallery choices initially available. Flexbox CSS method utilised allows easy addition & styling for subsequent gallery pages as required
 
-![Portfolio](#)
+![Portfolio](readme_media/rjwi_screens_site_features/rjwi_portfolio.png)
 
-![Portfolio gallery title on image hover](#)
+  - On mouse hover over image a Gallery Title is made visible, indicating which Gallery will be selected when clicked. This has user value as it assists in clear navigation to artworks.
+
+![Portfolio Gallery Title on Image Hover](readme_media/rjwi_screens_site_features/rjwi_portfolio_gallery-title_hover-trans-2.png)
 
 ## Gallery Page Features
 
-  - The gallery will provide the user with supporting images to see what the meet ups look like. 
-  - This section is valuable to the user as they will be able to easily identify the types of events the organisation puts together. 
+  - The gallery provides the visitor with a smooth flow of high-quality RJW artworks. This is valuable to the user as they are be able to easily access and browse the themed galleries of art RJW produces. 
+  - A Gallery Title heading of white text upon a dark-tinted background sits immediately below the header, adding value by clearly informing visitors which gallery they are browsing
+  - The gallery page is responsive, with @media queries for; 768px and below (1-column); 1024px and below (2-column) and full-screen (3-column). Valuable to users as large, clear images are maintained on medium and small screens.
 
-![Gallery title header](#)
+![Gallery Title Header](readme_media/rjwi_screens_site_features/rjwi_gallery_title_header-trans.png)
 
 ![Gallery responses: full/1024/768](#)
+
+  - Additional navigation styled at foot of page, enabling users to switch sideways through galleries, i.e. from one gallery to an adjacent gallery, without having to revisit the Portfolio page. Enriches the user experience by intuitively eliminating unnecessary navigation steps when swapping Gallery.
 
 ![Gallery footer links](#)
 
 ## Contact Page Features
 
-  - This page will allow the user to get signed up to Love Running to start their running journey with the community. The user will be able specify if they would like to take part in road, trail or both types of running. The user will be asked to submit their full name and email address. 
+  - This page exactly matches styling and layout established on the home page, consisting of two responsive elements:
+    - ***Left [responsive: top]*** made up of a 'Contact RJW Illustration' heading above text on dark-tinted panel, containing a friendly Call-To-Action encouraging getting in touch, a reiteration of social media links (which open in a new browser tab) and a brief list of services available. Valuable to users as it conveys pertinent information in a friendly, approachable manner.
+    - ***Right [responsive: bottom]*** a clear Call-To-Action 'Get in touch!' heading above a simple form element on dark-tinted panel, cheerfully encourages user interaction. Valuable as it provides clear and easy methods to make contact with RJW.  
+    - The validated form requires the input of first & last name, email address and a message before the 'Say hullo!' (submit) input activates and allows submission. Adds value as in addition to providing users a means of contact, valid submissions also yield user data for RJW.
+
+
 
 ![Contact copy panel](#)
 
