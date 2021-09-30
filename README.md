@@ -24,7 +24,9 @@ The **RJW Illustration** site will be useful for users and other artists wishing
 
 ---- 
 
-# UCD Phase 1: STRATEGY - Project Goals
+# UCD Phase 1: STRATEGY 
+
+## PROJECT GOALS
 
 ![Initial Project Doodlings](readme_media/rjwi_planning_docs/pp01_initial_thinx.jpg)
 
@@ -65,9 +67,9 @@ Considering the goals, expectations and concerns detailed above, potential featu
 
 ---- 
 
-# UCD: SCOPE
+# UCD Phase 2: SCOPE
 
-Utilising Phase One considerations a simple Strategy Table can be generated:
+### Analysis and grading of *Phase One considerations* allows a simple ***Strategy Table*** to be generated:
 
 
 | OPPORTUNITY/PROBLEM/FEATURE | IMPORTANCE | VIABILITY/FEASIBILITY | ID    | 
@@ -77,9 +79,21 @@ Utilising Phase One considerations a simple Strategy Table can be generated:
 | Prominent contact options   | 5          | 5                     | C     |
 | 'About' artist info         | 5          | 5                     | D     |
 | E-commerce elements         | 3          | 1                     | E     |
-| TOTAL         | 23         | 20                    |       |
+| TOTAL                       | 23         | 20                    |       |
 
-![UCD Strategic Trade-Offs: Importance vs Feasibility](#)
+
+![UCD Strategic Trade-Offs: Importance vs Feasibility](readme_media/rjwi_planning_docs/uxd_strategic_tradeoffs.jpg)
+
+## Strategic Trade-offs
+
+Plotting the Strategy Table results provides a visible indication of what is feasibily within the scope of the project at this time. As I am unable to meet all requirements at present, I will aim to provide RJW Illustration initially as an MVP or Minimum Viable Product, therefore: 
+  Due to time and current-skill limitations (and to also remain close to the number of pages required for this project) the site will be delivered in phases.
+
+  ***Initial Phase:*** Delivery of MVP, a fully functioning website, with the exception of
+    
+  - E-commerce features/preparation. As low priority, this will follow at a later date as required (and skill levels increase!)
+  
+  - Initial gallery count of two. Sufficient for proof of concept, subsequent galleries will be added in sunsequent phases.
 
 ----
 
