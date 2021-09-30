@@ -99,23 +99,51 @@ Plotting the Strategy Table results provides a visible indication of what is fea
 
 # UCD Phase 3: STRUCTURE
 
-![Bals]
+## Initial **RJW Illustration** Site Map 
 
-![Balsamiq Site Map](readme_media/rjwi_planning_docs/rjwi_wireframes_mobile/Site Map.png)
+Maps generated in [**Balsamiq**](https://balsamiq.com) 
+
+![Balsamiq Site Map](readme_media/rjwi_planning_docs/rjwi_wireframes_desktop/site_map.png)
+
+Prior to generating my wireframes in Balsamiq, I used it's handy Site Map element to better visualise the basic structure and navigation between proposed site pages. 
+
+As with all good wireframes, they are only a guide and subject to change! Amalgamation of pages (following Project Planning session advice from my Mentor - thanks, Marcel!) and project phasing resulted in the final site layout below.
+
+![Balsamiq Site Map](readme_media/rjwi_planning_docs/rjwi_current_site_map.png)
 
 ---- 
 
-# UCD: SKELETON
+# UCD Phase 4: SKELETON
 
-![Balsamiq Mobile Wireframes](#)
+## Initial **RJW Illustration** Wireframes for Mobile & Desktop
 
-![Balsamiq Desktop Wireframes](#)
+Following current conventional practice, **RJW Illustration** was designed with a Mobile First approach.
+
+All wireframes generated in [Balsamiq](https://balsamiq.com)
+
+![Balsamiq Mobile Wireframe About](readme_media/rjwi_planning_docs/rjwi_wireframes_mobile/about.png) ![Balsamiq Desktop Wireframes](readme_media/rjwi_planning_docs/rjwi_wireframes_desktop/contact.png)
+
+### Complete PDF versions of wireframes available here: [Mobile](readme_media/rjwi_planning_docs/pp-01_rjwi_wireframes_mobile.pdf) *and* [Desktop](readme_media/rjwi_planning_docs/pp-01_rjwi_wireframes_desktop.pdf)
 
 ---- 
 
-# UCD: SURFACE
+# UCD Phase 5: SURFACE
 
-### Existing Features
+## DESIGN CHOICES
+
+### Fonts
+
+### Colours
+
+### Imagery
+
+## TECHNOLOGIES
+
+
+
+
+
+## Existing Features
 
 - **Site-wide Navigation & Logo Header**
 
