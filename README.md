@@ -144,14 +144,14 @@ All fonts utilised in this project were sourced from and served by [**Google Fon
 
 ![Google Fonts Choices](readme_media/rjwi_planning_docs/rjwi_fonts.png)
 
-All icons utilised in this project were sourced from and served by [**Font-Awesome**](https://fontawesome.com)
+All icons utilised in this project were sourced from and served by [**FontAwesome**](https://fontawesome.com)
 
 ## Colours
 
 The 60:40:10 rule was used when determining colours: 
  - **60% Background/Primary:** ***Black*** chosen as a ***stakeholder concern*** - the ultimate dark colour! 
  - **40% Body Text/Secondary:** ***White*** chosen as a perfect compliment to Primary (black) 
- - **10% Accent/Tertiary:** ***Chartreuse*** chosen as a zingy, lively contrast to Primary (black)  ***stakeholder concern*** 
+ - **10% Accent/Tertiary:** ***Chartreuse*** chosen as a zingy, lively contrast to Primary (black) and ***stakeholder*** preference 
 
 ![Colour Choices](readme_media/rjwi_planning_docs/rjwi_colors.png)
 
@@ -177,52 +177,70 @@ During the course of this project I have utilised the following technologies:
 
 - [**GitHub**](https://github.com/) was used to create the repository and store the project's code after being pushed from Git
 
-- []()
+- [**Chrome**](https://www.google.com/intl/en_uk/chrome/) used to debug & test source code using HTML5 and to test site responsiveness
 
-- []()
+- [**Balsamiq**](https://balsamiq.com) used to generate project site maps and wireframes
 
-- []()
+- [**FontAwesome**](https://fontawesome.com) used for project icons
 
-- []()
+- [**Google Fonts**](https://fonts.google.com) used for all fonts utilised in the project
 
-## Existing Features
+- [**amiresponsive**](http://ami.responsivedesign.is/) used to check how responsive the site is on different devices
 
-- **Site-wide Navigation & Logo Header**
+- [**Web Page Test**](https://www.webpagetest.org/) used to test site performance
+
+- [**W3C Markup**](https://validator.w3.org/) and [**W3C Jigsaw**](http://jigsaw.w3.org/css-validator/) used to validate source HTML and CSS code
+
+## FEATURES
+
+## Site-wide Features
+
+- **Site-wide Header with Logo and Navigation**
+
+![Site-wide Nav & Logo Header Full](readme_media/rjwi_screens_site_features/rjwi_header.png)
 
   - Visually balancing the top-left-aligned nav elements, the RJW Illustration logo is rendered top-right using Amatic SC, a cursive web font in a simple, hand-drawn style.
-  - Featured on all website pages, the fully responsive header includes links to the Home page, Portfolio landing page and Contact page and is identical in each page to allow for easy navigation.
+  - Featured on all website pages, the fully responsive header includes links to the Home page, Portfolio landing page and Contact page and is identical on each page to allow for easy navigation.
+    - This allows the user to consistently navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button. 
+  - The example below shows an underline in the site's chosen accent colour, Chartreuse, indicating the current **active** page.
+
+
+![Header Nav](readme_media/rjwi_screens_site_features/rjwi_header_nav+home_active.png)
+
+  - ***Shown below:*** On mouse hover and whilst also maintaining the current-page indicator (an underline only), nav links to other pages are highlighted in the site accent colour to provide clear user-feedback, in this case; "click to be taken to Contact page [from the Home page]"
+
+![Header Nav Focus Feedback](readme_media/rjwi_screens_site_features/rjwi_header_nav_hover_contact.png)
   
-![Site-wide Nav & Logo Header](#)
+- **Site-wide Animated Page Background**
 
-  - This allows the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button. 
-
-![Header Nav](#)
-
-  - On mouse hover, nav links are highlighted to provide clear user-feedback and the current page is indicated with an underline in the site's chosen accent colour, Chartreuse.
-
-![Header Nav Focus Feedback](#)
+  - The main Home page section consists of an original animated (.mp4) background created by RJW 
+    - RJW intends to regularly update the background with fresh animations, encouraging visitors to return and check for new work playing
+  - Pages containing copy have been styled with a dark tinted panel behind to reduce contrast between the white copy and underlying animation, this assists users by enhancing contrast and legibility 
   
-![Header Nav Active](#)
+![Home Page](readme_media/rjwi_screens_site_features/rjwi_home.png)
 
-- **Home Page About Section & Time-lapse Video**
 
-  - The landing includes a photograph with text overlay to allow the user to see exactly which location this site would be applicable to. 
-  - This section introduces the user to Love Running with an eye catching animation to grab their attention
+- **Site-wide Footer** 
+
+  - The footer section includes links to Instagram and Behance external sites and will open to a new tab, allowing easy navigation for the user. This is valuable to site users as it encourages them to keep connected via social media.
+  - Additional site-wide breadcrumb-style nav links included in the footer allow easy user navigation to Home, Portfolio and Contact pages at the bottom of long gallery pages and pages on smaller, responsive-styled screens.
+
+![Site-wide Footer](readme_media/rjwi_screens_site_features/rjwi_footer.png)
+
+![Site-wide Footer Links](readme_media/rjwi_screens_site_features/rjwi_footer_links.png)
+
+## Home Page Features
+
+- The Home page consists of two responsive elements:
+  - ***Left [responsive top]*** comprises of an 'About' heading above text panel, containing brief information about RJW, encouraging getting in touch and thanking for visiting. Valuable to user relations as it conveys pertinent information in a friendly, approachable manner
+  - ***Right [responsive bottom]*** comprises
 
 ![Home Page Copy Panel](#)
 
 ![Home Page Time-lapse User-Invoked Video Panel](#)
 
-- **Footer** 
 
-  - The footer section includes links to Instagram and Behance external sites and will open to a new tab, allowing easy navigation for the user. This is valuable to site users as it encourages them to keep connected via social media.
-  - Additional site-wide breadcrumb-style nav links included in the footer allow easy user navigation to Home, Portfolio and Contact pages at the bottom of long gallery pages and all pages on smaller, responsive-styled screens.
-
-![Site-wide Footer](#)
-
-![Site-wide Footer Links](#)
-
-- **Portfolio Gallery Selection Page**
+## Portfolio Page Features
 
   - The Portfolio page serves as a landing page providing users with links to themed galleries of work. 
   - This section is also valuable to the user as it enables them to easily choose between the different thematic styles of illustration Rian creates. 
@@ -232,7 +250,7 @@ During the course of this project I have utilised the following technologies:
 
 ![Portfolio gallery title on image hover](#)
 
-- **Gallery Pages: Inktober 2020 & Illustrative**
+## Gallery Page Features
 
   - The gallery will provide the user with supporting images to see what the meet ups look like. 
   - This section is valuable to the user as they will be able to easily identify the types of events the organisation puts together. 
@@ -243,7 +261,7 @@ During the course of this project I have utilised the following technologies:
 
 ![Gallery footer links](#)
 
-- **Contact Page**
+## Contact Page Features
 
   - This page will allow the user to get signed up to Love Running to start their running journey with the community. The user will be able specify if they would like to take part in road, trail or both types of running. The user will be asked to submit their full name and email address. 
 
