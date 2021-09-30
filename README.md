@@ -1,3 +1,56 @@
+# ***TABLE OF CONTENTS***
+
+- [RJW Illustration Online Portfolio](#rjw-illustration-online-portfolio)
+  * [**Introduction**](#--introduction--)
+      - [***Until now...***](#---until-now---)
+- [UCD Phase 1: STRATEGY](#ucd-phase-1--strategy)
+  * [PROJECT GOALS](#project-goals)
+  * [External User Goals:](#external-user-goals-)
+  * [Site Owner Goals:](#site-owner-goals-)
+  * [Potential Features:](#potential-features-)
+- [UCD Phase 2: SCOPE](#ucd-phase-2--scope)
+    + [Analysis and grading of *Phase One considerations* allows a simple ***Strategy Table*** to be generated:](#analysis-and-grading-of--phase-one-considerations--allows-a-simple----strategy-table----to-be-generated-)
+  * [Strategic Trade-offs](#strategic-trade-offs)
+- [UCD Phase 3: STRUCTURE](#ucd-phase-3--structure)
+  * [Initial **RJW Illustration** Site Map](#initial---rjw-illustration---site-map)
+- [UCD Phase 4: SKELETON](#ucd-phase-4--skeleton)
+  * [Initial **RJW Illustration** Wireframes for Mobile & Desktop](#initial---rjw-illustration---wireframes-for-mobile---desktop)
+    + [Complete PDF versions of wireframes available here: [Mobile](readme_media/rjwi_planning_docs/pp-01_rjwi_wireframes_mobile.pdf) *and* [Desktop](readme_media/rjwi_planning_docs/pp-01_rjwi_wireframes_desktop.pdf)](#complete-pdf-versions-of-wireframes-available-here---mobile--readme-media-rjwi-planning-docs-pp-01-rjwi-wireframes-mobilepdf---and---desktop--readme-media-rjwi-planning-docs-pp-01-rjwi-wireframes-desktoppdf-)
+- [UCD Phase 5: SURFACE](#ucd-phase-5--surface)
+  * [DESIGN CHOICES](#design-choices)
+  * [Fonts and Icons](#fonts-and-icons)
+  * [Colours](#colours)
+  * [Imagery](#imagery)
+    + [All site imagery is original copyright material originated and provided by the stakeholder.](#all-site-imagery-is-original-copyright-material-originated-and-provided-by-the-stakeholder)
+  * [TECHNOLOGIES](#technologies)
+  * [Languages](#languages)
+  * [Tools](#tools)
+  * [FEATURES](#features)
+  * [Site-wide Features](#site-wide-features)
+  * [Home Page Features](#home-page-features)
+  * [Portfolio Page Features](#portfolio-page-features)
+  * [Gallery Page Features](#gallery-page-features)
+  * [Contact Page Features](#contact-page-features)
+  * [*Features Left to Implement*](#-features-left-to-implement-)
+- [VERSION CONTROL](#version-control)
+  * [Gitpod Workspaces](#gitpod-workspaces)
+- [TESTING](#testing)
+  * [AUTOMATED TESTING](#automated-testing)
+  * [W3C Validator Testing](#w3c-validator-testing)
+  * [MANUAL TESTING](#manual-testing)
+  * [Manual Testing Results Summary](#manual-testing-results-summary)
+  * [BUGS and FIXES](#bugs-and-fixes)
+    + [**Bug:** Header logo breaking apart](#--bug----header-logo-breaking-apart)
+    + [**Bug:** Gallery responsiveness for screens 600px and below](#--bug----gallery-responsiveness-for-screens-600px-and-below)
+    + [**Bug:** Ugly response layouts at 615px and iPad screen width (768px)](#--bug----ugly-response-layouts-at-615px-and-ipad-screen-width--768px-)
+- [Deployment](#deployment)
+  * [Credits](#credits)
+    + [Content](#content)
+
+<small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
+
+
+
 # RJW Illustration Online Portfolio
 
 ----
