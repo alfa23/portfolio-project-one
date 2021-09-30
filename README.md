@@ -91,15 +91,17 @@ Plotting the Strategy Table results provides a visible indication of what is fea
 
   ***Initial Phase:*** Delivery of MVP, a fully functioning website, with the exception of
     
-  - E-commerce features/preparation. As low priority, this will follow at a later date as required (and skill levels increase!)
+  - E-commerce features/preparations. As a low stakeholder priority, this will follow at a later date as required (and skill levels increase!)
   
   - Initial gallery count of two. Sufficient for proof of concept, subsequent galleries will be added in sunsequent phases.
 
 ----
 
-# UCD: STRUCTURE
+# UCD Phase 3: STRUCTURE
 
-![Balsamiq Site Map](#)
+![Bals]
+
+![Balsamiq Site Map](readme_media/rjwi_planning_docs/rjwi_wireframes_mobile/Site Map.png)
 
 ---- 
 
