@@ -259,18 +259,27 @@ During the course of this project I have utilised the following technologies:
 
 ![Gallery Title Header](readme_media/rjwi_screens_site_features/rjwi_gallery_title_header-trans.png)
 
-![Gallery responses: full/1024/768](#)
+**Gallery Responses: Full screen | 1024px and below | 768px and below**
+
+![Gallery Response Full](readme_media/rjwi_screens_site_features/rjwi_gallery_response_full.png)
+
+![Gallery Response 1024](readme_media/rjwi_screens_site_features/rjwi_gallery_response_1024.png)
+
+![Gallery Response 768](readme_media/rjwi_screens_site_features/rjwi_gallery_response_768_head.png)
 
   - Additional navigation styled at foot of page, enabling users to switch sideways through galleries, i.e. from one gallery to an adjacent gallery, without having to revisit the Portfolio page. Enriches the user experience by intuitively eliminating unnecessary navigation steps when swapping Gallery.
 
-![Gallery footer links](#)
+![Gallery Footer Link 1](readme_media/rjwi_screens_site_features/rjwi_gallery_footer_g-f-l-trans-1.png)
+
+![Gallery Footer Link 2](readme_media/rjwi_screens_site_features/rjwi_gallery_footer_g-f-l-trans-2.png)
 
 ## Contact Page Features
 
-  - This page exactly matches styling and layout established on the home page, consisting of two responsive elements:
-    - ***Left [responsive: top]*** made up of a 'Contact RJW Illustration' heading above text on dark-tinted panel, containing a friendly Call-To-Action encouraging getting in touch, a reiteration of social media links (which open in a new browser tab) and a brief list of services available. Valuable to users as it conveys pertinent information in a friendly, approachable manner.
+  - To reinforce familiar user experience this page exactly matches styling and layout established on the home page, consisting of two responsive elements:
+    - ***Left [responsive: top]*** made up of a 'Contact RJW Illustration' heading above text on dark-tinted panel, containing a friendly Call-To-Action encouraging getting in touch, a reiteration of social media links (which open in a new browser tab) and a brief list of some of the artistic services RJW offers. Valuable to users as it conveys pertinent information in a friendly, approachable manner.
     - ***Right [responsive: bottom]*** a clear Call-To-Action 'Get in touch!' heading above a simple form element on dark-tinted panel, cheerfully encourages user interaction. Valuable as it provides clear and easy methods to make contact with RJW.  
-    - The validated form requires the input of first & last name, email address and a message before the 'Say hullo!' (submit) input activates and allows submission. Adds value as in addition to providing users a means of contact, valid submissions also yield user data for RJW.
+    - The validated form requires the input of user's first & last name, email address and a message before the 'Say hullo!' (submit) input activates and allows form submission. Adds value as in addition to providing users a means of contact, valid submissions also yield user data for RJW.
+      - User receives verification of successfully submitted form data.
 
 
 
@@ -288,7 +297,7 @@ In addition, you may also use this section to discuss plans for additional featu
 
   - 
 
-- **Online webstore**
+- **E-commerce Implimentation/Webstore**
 
   - 
 
