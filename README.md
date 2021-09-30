@@ -281,37 +281,170 @@ During the course of this project I have utilised the following technologies:
     - The validated form requires the input of user's first & last name, email address and a message before the 'Say hullo!' (submit) input activates and allows form submission. Adds value as in addition to providing users a means of contact, valid submissions also yield user data for RJW.
       - User receives verification of successfully submitted form data.
 
+![Contact Copy Panel](readme_media/rjwi_screens_site_features/rjwi_contact_copy_panel.png) ![Say Hullo!: Contact Form Panel](readme_media/rjwi_screens_site_features/rjwi_contact_form_panel_active.png)
+
+![Contact Form Validation](readme_media/rjwi_screens_site_features/rjwi_contact_form_validation.png)
+
+## *Features Left to Implement*
+
+- Identified as **Strategic Trade-offs** at ***UXD Phase 2***, **Further Gallery Pages** and **E-commerce Implimentation** will be addressed, skills permitting, as and when required by the stakeholder.
+
+----
+
+# VERSION CONTROL
+
+Managed within **GitHub** and **Gitpod** via regular commits pushed to GitHub remote servers:
+
+## Gitpod Workspaces
+1. Starting from GitHub, clone the Code Institute template by clicking Use This Template and copying to my repo. Launch Workspace by clicking GitPod button - this action is only performed once and the workspace is subsequently reopened through GitPod.
+
+2. Start the Gitpod Workspace which opens an online IDE editor window.
+    
+    - Update GitHub by committing from GitPod
+
+3. During editing save the code regularly, using git add ., git commit -m "commit message here" and git push Bash commands to push changes to the GitHub repository.
+
+4. Meaningful commit messages allow easy roll-back of any changes to earlier versions.
+
+# TESTING 
+
+## AUTOMATED TESTING
+
+## W3C Validator Testing 
+
+- HTML
+  - No errors were returned when passing through the official [W3C validator](https://validator.w3.org)
+
+![W3C HTML Home](readme_media/test_html_css/validator-html_pp01-1_home.png)
+
+![W3C HTML Portfolio 1](readme_media/test_html_css/validator-html_pp01-2a_portfolio-error.png)
+
+![W3C HTML Portfolio 2](readme_media/test_html_css/validator-html_pp01-2b_portfolio-fixed.png)
+
+![W3C HTML Inktober 1](readme_media/test_html_css/validator-html_pp01-3a_inktober-error.png)
+
+![W3C HTML Inktober 2](readme_media/test_html_css/validator-html_pp01-3b_inktober-fixed.png)
+
+![W3C HTML Illustrative](readme_media/test_html_css/validator-html_pp01-4_illustrative.png)
+
+![W3C HTML Contact](readme_media/test_html_css/validator-html_pp01-5_contact.png)
+
+- CSS
+  - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org)
+
+![W3C CSS](readme_media/test_html_css/validator-css_pp01-css_style.png)
+
+**Google Developer Tools**
+
+- I made use of the built-in **Chrome Dev Tools** to experiment and debug while coding, in addition to testing simulated responsive behaviour across a wide range of mobile and desktop devices, and finally checking all pages Performance using **Lighthouse**. 
+
+  - See all [Lighthouse screenshots here](readme_media/test_lighthouse).
+
+    - I spent a lot of time (too much!) chasing Performance scores for my pages and eventually replaced and re-linked all .png images with .jpeg alternatives.
+
+**Response Testing**
+
+In order to make sure that RJW Illustration was responsive to all device sizes, I used [amiresponsive](http://ami.responsivedesign.is/)
+
+  - See all [amiresponsive screenshots here](readme_media/test_amiresponsive).
+
+**WebAIM**
+
+- I used [WebAIM](https://webaim.org/resources/contrastchecker/) to check colour contrast
+
+![WebAIM 1](readme_media/test_webaim/webaim_main.png)
+
+![WebAIM 2](readme_media/test_webaim/webaim_secondary.png)
+
+**WebPageTest**
+
+- I used [WebPageTest](https://www.webpagetest.org/) set to London/Chrome as a final test for all pages.
+
+    - Both Gallery pages were initally flagged for uncompressed images, which resulted in a second image overhaul, where I re-optimised, replaced and re-linked all .jpeg images with smaller fresh versions!
+
+![WebPageTest Home](readme_media/test_web-page-test/wpt-01_home.png)
+
+![WebPageTest Portfolio](readme_media/test_web-page-test/wpt-02_portfolio.png)
+
+![WebPageTest Inktober 1](readme_media/test_web-page-test/wpt-03_inktober20_initial.png)
+
+![WebPageTest Inktober 2](readme_media/test_web-page-test/wpt-03_inktober20_final.png)
+
+![WebPageTest Illustrative 1](readme_media/test_web-page-test/wpt-04_illustrative_initial.png)
+
+![WebPageTest Illustrative 2](readme_media/test_web-page-test/wpt-04_illustrative_final.png)
+
+![WebPageTest Contact](readme_media/test_web-page-test/wpt-05_contact.png)
+
+## MANUAL TESTING
+
+In addition to my own testing a link to the project was shared to family & friends for rigorous testing across varied devices and screen sizes.
+
+  - **Browsers** including: 
+    - Chrome
+    - Safari
+    - Edge
+
+  - **Devices** including: 
+    - iPhone SE (Gen 1)
+    - iPhone 11
+    - iPhone 12 Mini
+    - Google Pixel 4a
+    - iPad Pro (2018)
+    - iPad Air (2020)
+    - MacBook Pro (2015)
+    - Windows 10 PC 
+
+## Manual Testing Results Summary
+
+**All Pages**
+
+| TEST | OUTCOME | PASS/FAIL |
+|---|---|:---:|
+| Header & Footer | Ensure all header, footer & nav elements behave as expected: Active/Hover states; | PASS |
+|  | Ensure all styled responsive behaviour rules are met as expected | PASS |
+|  | Ensure social media links behave as expected and open in new tabs | PASS |
+| Background Video | Ensure appropriate behaviour across-site: loads & plays; response scaling; | PASS |
+
+**Home Page**
+
+| TEST | OUTCOME | PASS/FAIL |
+|---|---|:---:|
+| Video | Ensure expected behaviour: autoplay disabled, muted, loop enabled, plays on demand | PASS |
+| Responsive | Ensure responsive behaviour rules are met as expected | PASS |
+
+![Lighthouse Home](readme_media/test_lighthouse/lighthouse-01-home-desktop_perfect.png)
+
+**Portfolio Page**
+
+| TEST | OUTCOME | PASS/FAIL |
+|---|---|:---:|
+| Gallery Covers | Ensure expected behaviour: Hover state | PASS |
+| Responsive | Ensure responsive behaviour rules are met as expected | PASS |
+
+![Lighthouse Portfolio](readme_media/test_lighthouse/lighthouse-02-portfolio-desktop_perfect.png)
+
+**Contact Page**
+
+| TEST | OUTCOME | PASS/FAIL |
+|---|---|:---:|
+| Social media links | Ensure social media links behave as expected and open in new tabs | PASS |
+| Responsive | Ensure responsive behaviour rules are met as expected | PASS |
+| Form element | Ensure expected behaviour: Validation; confirmation | PASS |
+
+![Lighthouse Contact](readme_media/test_lighthouse/lighthouse-05-contact-desktop_perfect.png)
+
+**Gallery Page**
+
+| TEST | OUTCOME | PASS/FAIL |
+|---|---|:---:|
+| Footer Gallery Switch Link | Ensure expected behaviour: Correct page linked | PASS |
+| Responsive | Ensure responsive behaviour rules are met as expected | PASS |
+
+![Lighthouse Contact](readme_media/test_lighthouse/lighthouse-03-inktober-desktop_final.png)
 
 
-![Contact copy panel](#)
-
-![Say Hullo!: Contact form panel](#)
-
-For some/all of your features, you may choose to reference the specific project files that implement them.
-
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
-
-### Features Left to Implement
-
-- **Further Gallery Pages**
-
-  - 
-
-- **E-commerce Implimentation/Webstore**
-
-  - 
-
-## Testing 
-
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your project’s features and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
-
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
-
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
-
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
-
-## Bugs and fixes:
+## BUGS and FIXES
 
 ### **Bug:** Header logo breaking apart
 
@@ -334,25 +467,11 @@ Sourced from: https://www.thesitewizard.com/css/prevent-word-wrapping.shtml Sept
 
 ### **Bug:** Ugly response layouts at 615px and iPad screen width (768px)
 
-**Issue:**
+**Issue:** Awkward break noticed during Response testing
 
-**Solution:**
+**Solution:** Amended media queries to eliminate the issue
 
-### Unfixed Bugs
-
-You will need to mention unfixed bugs and why they were not fixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a big variable to consider, paucity of time and difficulty understanding implementation is not a valid reason to leave bugs unfixed. 
-
-### Validator Testing 
-
-- HTML
-  - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcode-institute-org.github.io%2Flove-running-2.0%2Findex.html)
-
-! (readme_media)
-
-- CSS
-  - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fvalidator.w3.org%2Fnu%2F%3Fdoc%3Dhttps%253A%252F%252Fcode-institute-org.github.io%252Flove-running-2.0%252Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en#css)
-
-## Deployment
+# Deployment
 
 - The site was deployed to GitHub pages. The steps to deploy are as follows: 
   - In the GitHub repository, navigate to the Settings tab 
@@ -365,27 +484,9 @@ The live link can be found here - https://alfa23.github.io/portfolio-project-one
 
 ## Credits 
 
-In this section you need to reference where you got your content, media and extra help from. It is common practice to use code from other repositories and tutorials, however, it is important to be very specific about these sources to avoid plagiarism. 
-
-You can break the credits section up into Content and Media, depending on what you have included in your project. 
-
 ### Content 
 
-- The text for the Home page was taken from Wikipedia Article A
-- Instructions on how to implement form validation on the Sign Up page was taken from [Specific YouTube Tutorial](https://www.youtube.com/)
 - The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
-
-### Media
-
-- The photos used on the home and sign up page are from This Open Source site
-- The images used for the gallery page were taken from this other open source site
-
-
-
-
-
-
-## External resources utilised:
 
 /* Add a slash symbol (/) before/behind each list item - code below pasted from https://www.w3schools.com/howto/howto_css_breadcrumbs.asp */
 .breadcrumb li+li:before {
@@ -395,4 +496,6 @@ You can break the credits section up into Content and Media, depending on what y
   }
 
 /* Add page-container code to manage footer positioning - code below sourced from https://www.freecodecamp.org/news/how-to-keep-your-footer-where-it-belongs-59c6aa05c59c/ •/
+
+Flexbox styling learnt, borrowed and adapted from w3Schools: https://www.w3schools.com/css/css3_flexbox.asp
 
