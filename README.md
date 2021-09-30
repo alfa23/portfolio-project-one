@@ -121,7 +121,7 @@ Following current conventional practice, **RJW Illustration** was designed with 
 
 All wireframes generated in [Balsamiq](https://balsamiq.com)
 
-![Balsamiq Mobile Wireframe About](readme_media/rjwi_planning_docs/rjwi_wireframes_mobile/about.png) ![Balsamiq Desktop Wireframes](readme_media/rjwi_planning_docs/rjwi_wireframes_desktop/contact.png)
+![Balsamiq Mobile Wireframe About](readme_media/rjwi_planning_docs/rjwi_wireframes_mobile/about.png) ![Balsamiq Desktop Contact](readme_media/rjwi_planning_docs/rjwi_wireframes_desktop/contact.png)
 
 ### Complete PDF versions of wireframes available here: [Mobile](readme_media/rjwi_planning_docs/pp-01_rjwi_wireframes_mobile.pdf) *and* [Desktop](readme_media/rjwi_planning_docs/pp-01_rjwi_wireframes_desktop.pdf)
 
@@ -131,17 +131,59 @@ All wireframes generated in [Balsamiq](https://balsamiq.com)
 
 ## DESIGN CHOICES
 
-### Fonts
+## Fonts and Icons
 
-### Colours
+All fonts utilised in this project were sourced from and served by [**Google Fonts**](https://fonts.google.com)
+- **Heading Font:** *Amatic SC*
+  
+  *Amatic SC* is a cursive style font with an easy-going, hand-rendered feel. In collaboration with stakeholder it was chosen as it effectively compliments the overall aesthetic of both site focus and content.
 
-### Imagery
+- **Body Font:** *Open Sans*
+
+  Utilising **Google Fonts** ***popular pairings*** feature, sans-serif font *Open Sans* was chosen from the options for its width and breathing space; a subtle counter to the condensed style of *Amatic*.
+
+![Google Fonts Choices](readme_media/rjwi_planning_docs/rjwi_fonts.png)
+
+All icons utilised in this project were sourced from and served by [**Font-Awesome**](https://fontawesome.com)
+
+## Colours
+
+The 60:40:10 rule was used when determining colours: 
+ - **60% Background/Primary:** ***Black*** chosen as a ***stakeholder concern*** - the ultimate dark colour! 
+ - **40% Body Text/Secondary:** ***White*** chosen as a perfect compliment to Primary (black) 
+ - **10% Accent/Tertiary:** ***Chartreuse*** chosen as a zingy, lively contrast to Primary (black)  ***stakeholder concern*** 
+
+![Colour Choices](readme_media/rjwi_planning_docs/rjwi_colors.png)
+
+## Imagery
+
+### All site imagery is original copyright material originated and provided by the stakeholder.
 
 ## TECHNOLOGIES
 
+During the course of this project I have utilised the following technologies:
 
+## Languages
 
+- [**HTML5**](https://html.com/html5/) (HyperText Markup Language) was used for structuring & presenting site content
 
+- [**CSS**](https://www.css3.info/) (Cascading Style Sheets) was used to provide styling to the HTML
+
+## Tools
+
+- [**Git**](https://git-scm.com/) was used for version control (commit to Git and push to GitHub)
+
+- [**Gitpod**](https://www.gitpod.io/) was used to write my code; an online IDE linked to the GitHub repository
+
+- [**GitHub**](https://github.com/) was used to create the repository and store the project's code after being pushed from Git
+
+- []()
+
+- []()
+
+- []()
+
+- []()
 
 ## Existing Features
 
