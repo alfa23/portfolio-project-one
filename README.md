@@ -501,8 +501,6 @@ In addition to my own testing a link to the project was shared to family & frien
 
 ### **Bug:** Header logo breaking apart
 
-! INSERT SCREENSHOT !
-
 **Issue:** During window resizing RJW Illustration logo would split into two lines. 
 
 **Solution:** Googled the issue, found and implemented the following fix:
