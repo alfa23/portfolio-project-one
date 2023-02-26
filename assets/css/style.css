@@ -120,7 +120,7 @@ div ul {
 
 .left-side p,
 .right-side p {
-    padding: 0 15% 15% 15%;
+    padding: 0 15%;
     color: #fff;
 }
 
@@ -134,7 +134,7 @@ div ul {
 .right-side video {
     padding-top: 30px;
     padding-right: 30px;
-    width: 77%;
+    width: 70%;
 }
 
 span {
