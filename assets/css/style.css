@@ -120,7 +120,7 @@ div ul {
 
 .left-side p,
 .right-side p {
-    padding: 0 15%;
+    padding: 0 15% 5%;
     color: #fff;
 }
 
@@ -364,7 +364,7 @@ input {
     /* home & contact page response */
     .left-side p,
     .right-side p {
-        padding: 0 10% 15% 10%;
+        padding: 0 10% 5% 10%;
         color: #fff;
     }
 
@@ -432,7 +432,7 @@ input {
 
     .left-side p,
     .right-side p {
-        padding: 0 5% 15% 5%;
+        padding: 0 5% 5%;
         color: #fff;
     }
 
